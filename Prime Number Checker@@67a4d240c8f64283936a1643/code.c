@@ -7,6 +7,9 @@ int isPrime(int n){
             c++;
         }
     }
+    if(n==1){
+        return 0;
+    }
     if(c==0){
         return 1;
     }else{
