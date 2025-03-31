@@ -10,6 +10,9 @@ int isPrime(int n){
     if(n==1){
         return 0;
     }
+    if(n==0){
+        return ;
+    }
     if(c==0){
         return 1;
     }else{
